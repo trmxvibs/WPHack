@@ -1,7 +1,4 @@
-#                             Online Bash Shell.
-# Updating package list of termux
 # tool made for fun purpose only.
-
 apt-get update -y
 apt-get upgrade -y
 clear
@@ -10,7 +7,11 @@ sleep 3.0
 ##  checking Dependices for Installing
 printf "\n"
 printf "                  \e[100m\e[1;70m checking Dependices for System \e[0m\n"
-apt-get install python python2 python3 git php openssl openssl-tool curl wget -y
+apt-get install python python2 python3 git php openssl openssl-tool curl lolcat wget -y
+pip install upgrade pip
+pip2 install upgrade pip2
+pip3 install upgrade pip3
+pip install lolcat
 sleep 3.0
 clear
 echo -e '\e[91m
@@ -281,8 +282,8 @@ sleep 5
 printf "\n"
 printf "        \e[101m\e[1;77m  >> Upgrading Supporting tools << \e[0m\n"
 sleep 5
-pip install --upgrade pip
-pip2 install --upgrade pip
+pip install upgrade pip
+pip2 install upgrade pip
 pip install wheel
 pip install setuptools
 pip install RUST
@@ -338,50 +339,70 @@ printf "\e[1;92m[\e[0m\e[1;77m9\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
 }
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' option
 if [[ $option == 1 || $option == 01 ]]; then
-echo     "Checking Root........"
+printf    "\e[0;36m Checking Root.......\e[0m\n"
 sleep 10
-echo -e "\e[91mYOUR\e[96m Device not Root, tool isn't working.
-\e[92m Root\e[96m your TErmux and try again \e[0m "
+echo "ERROR" | figlet | lolcat
+echo -e "\e[31m ++++ Root Not Found ++++\e[0m\n"]
+printf "\e[1;33m ==>> Root your Termux & try again\e[0m\n"
 sleep 05
 xdg-open https://youtu.be/ChAQaVaJDvg
-sleep 90
-exit
+sleep 40
+xdg-open https://www.youtube.com/channel/UC2MKFsqqSNX-ZGgb8pUKAKQ/?sub_confirmation=1
+sleep 40
+clear
+bash wp.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-echo     "Checking Root........"
+printf    "\e[0;36m Checking Root.......\e[0m\n"
 sleep 10
-echo -e "\e[91mYOUR\e[96m Device not Root, tool isn't working.
-\e[92m Root\e[96m your TErmux and try again \e[0m "
+echo "ERROR" | figlet | lolcat
+echo -e "\e[31m ++++ Root Not Found ++++\e[0m\n"]
+printf "\e[1;33m ==>> Root your Termux & try again\e[0m\n"
 sleep 05
 xdg-open https://youtu.be/ChAQaVaJDvg
-sleep 90
-exit
+sleep 40
+xdg-open https://www.youtube.com/channel/UC2MKFsqqSNX-ZGgb8pUKAKQ/?sub_confirmation=1
+sleep 40
+clear
+bash wp.sh
 elif [[ $option == 3 || $option == 03 ]]; then
-echo     "Checking Root........"
+printf    "\e[0;36m Checking Root.......\e[0m\n"
 sleep 10
-echo -e "\e[91mYOUR\e[96m Device not Root, tool isn't working.
-\e[92m Root\e[96m your TErmux and try again \e[0m "
+echo "ERROR" | figlet | lolcat
+echo -e "\e[31m ++++ Root Not Found ++++\e[0m\n"]
+printf "\e[1;33m ==>> Root your Termux & try again\e[0m\n"
 sleep 05
 xdg-open https://youtu.be/ChAQaVaJDvg
-sleep 90
-exit
+sleep 40
+xdg-open https://www.youtube.com/channel/UC2MKFsqqSNX-ZGgb8pUKAKQ/?sub_confirmation=1
+sleep 40
+clear
+bash wp.sh
 elif [[ $option == 4 || $option == 04 ]]; then
-echo     "Checking Root........"
+printf    "\e[0;36m Checking Root.......\e[0m\n"
 sleep 10
-echo -e "\e[91mYOUR\e[96m Device not Root, tool isn't working.
-\e[92m Root\e[96m your TErmux and try again \e[0m "
+echo "ERROR" | figlet | lolcat
+echo -e "\e[31m ++++ Root Not Found ++++\e[0m\n"]
+printf "\e[1;33m ==>> Root your Termux & try again\e[0m\n"
 sleep 05
 xdg-open https://youtu.be/ChAQaVaJDvg
-sleep 90
-exit
+sleep 40
+xdg-open https://www.youtube.com/channel/UC2MKFsqqSNX-ZGgb8pUKAKQ/?sub_confirmation=1
+sleep 40
+clear
+bash wp.sh
 elif [[ $option == 5 || $option == 05 ]]; then
-echo     "Checking Root........"
+printf    "\e[0;36m Checking Root.......\e[0m\n"
 sleep 10
-echo -e "\e[91mYOUR\e[96m Device not Root, tool isn't working.
-\e[92m Root\e[96m your TErmux and try again \e[0m "
+echo "ERROR" | figlet | lolcat
+echo -e "\e[31m ++++ Root Not Found ++++\e[0m\n"]
+printf "\e[1;33m ==>> Root your Termux & try again\e[0m\n"
 sleep 05
 xdg-open https://youtu.be/ChAQaVaJDvg
-sleep 90
-exit
+sleep 40
+xdg-open https://www.youtube.com/channel/UC2MKFsqqSNX-ZGgb8pUKAKQ/?sub_confirmation=1
+sleep 40
+clear
+bash wp.sh
 elif [[ $option == 6 || $option == 06 ]]; then
 bash update.sh
 elif [[ $option == 7 || $option == 07 ]]; then
