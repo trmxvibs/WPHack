@@ -12,6 +12,11 @@ pip install upgrade pip
 pip2 install upgrade pip2
 pip3 install upgrade pip3
 pip install lolcat
+pkg install lolcat -y
+pip install figlet
+pkg install figlet -y
+pip install toilet
+pkg install toilet -y
 sleep 3.0
 clear
 echo -e '\e[91m
