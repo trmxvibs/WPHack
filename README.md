@@ -1,20 +1,21 @@
-# WPHack
-## WPHack tool for hack whatsapp on a web base with ip address or qr code based.
-**tool tasted on kali linux and termux android.**
-### work as a rooted device.
-#Installing 
-Installing using git.
-```sh
- pkg install git -y
-```
-```sh
-git clone https://github.com/trmxvibs/WPHack
-```
-```sh
-cd WPHack
-```
-```sh
- bash WpHack.sh
-```
+# Update Script by Lokesh Kumar
 
-# Enjoy your day
+This is a powerful update script designed to check, download, and install updates seamlessly. With a visually appealing and smooth progress bar, users can see every step as their system gets updated to the latest version. A motivational quote is displayed once the update is complete, along with system information.
+
+## Features
+- **Smooth Update Process**: See the progress in a beautiful way.
+- **Motivational Quote**: After the update is complete, get a quote to inspire you.
+- **System Information**: Displays your system info to ensure everything is running smoothly.
+- **Clear and Easy to Use**: Simple, effective, and user-friendly script.
+
+## Requirements
+- **bash shell** (default on most Linux distributions)
+- **Basic understanding of terminal usage**
+
+## Installation
+
+1. Clone the repository or download the script file:
+
+   ```bash
+   git clone https://github.com/yourusername/update-script.git
+```
