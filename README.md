@@ -1,4 +1,4 @@
-# **Whatsapp Hacking Toolkit by MR. Lokesh Kumar**
+
 ![WhatsApp-Hacking-12-28-2024](https://github.com/user-attachments/assets/6688aa83-f2e0-41fa-b634-06d12dc8570d)
 
 
