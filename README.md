@@ -86,7 +86,8 @@ This project is licensed under the MIT License. Please check the LICENSE file fo
 
 ## 🚨 **IMPORTANT NOTICE** 🚨
 
-**This tool is a FAKE.** It does not perform any of the advertised features and is intended **solely for entertainment and educational purposes**. Please **do not attempt to use it for malicious activities**.
+# **This tool is a FAKE simuletor creat not working.** 
+**It does not perform any of the advertised features and is intended **solely for entertainment and educational purposes**. Please **do not attempt to use it for malicious activities**.
 
 
 
